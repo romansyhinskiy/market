@@ -1,0 +1,32 @@
+@media screen and (max-width: 991px){
+    .search{
+        margin-top: 24px
+    }
+    .search .btn-full,
+    .search .empty-link
+    {
+        display: block;
+        text-align: center;
+    }
+    .search .empty-link{
+        margin-top: 24px;
+    }
+    .tool-mobile{
+        display: flex;
+        align-items: center;
+        padding: 20px 0;
+        border-bottom: 1px solid #c0c0c0;
+        margin-right: 0;
+    }
+    .tool-mobile i{
+        margin-right: 12px
+    }
+    .mob-header-width{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1200px){
+    .navbar .mob-search-icon{
+        display: none
+    }
+}
