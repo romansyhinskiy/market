@@ -1,0 +1,49 @@
+@media screen and (max-width: 767px){
+    .dashboard-label {
+        font-size: 10px;
+    }
+    .dashboard-item {
+        width: 131px;
+        height: 92px;
+        padding: 13px 3px;
+    }
+    .dashboard-pannel {
+        width: auto;
+        margin: 0 -15px;
+    }
+    .dashboard-list li {
+        white-space: nowrap;
+    }
+    .dashboard-list{
+        display: flex;
+        overflow: auto;
+    }
+    .active-dashboard-link{
+        border-bottom: 3px solid #00A77F;
+        border-radius: 1px;
+        background: transparent
+    }
+    .dashboard-greeting {
+        padding: 19px 24px 19px;
+    }
+    .dashboard-content {
+        width: 100%;
+    }
+    .seller-dashboard {
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    .dashboard-item{
+        width: 164px;
+        height: 96px;
+    }
+    .seller-dashboard .dashboard-item {
+        border-bottom: 1px solid #e0e0e0;
+    }
+}
+@media screen and (max-width: 359px){
+    .dashboard-item {
+        width: 100%;
+        height: 83px;
+    }
+}

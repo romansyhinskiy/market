@@ -1,0 +1,123 @@
+.dashboard-pannel{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(214, 214, 214, 0.3);
+    border-radius: 5px;
+    width: 28%;
+    height: max-content;
+}
+.dashboard-list{
+    list-style: none;
+    padding-left: 0
+}
+.dashboard-list li{
+    padding: 11px 24px
+}
+.myDashboard{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('./images/dashboard-icon.svg')
+}
+.myDeal{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('./images/myDeal.svg')
+}
+.myProducts{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('./images/myProducts.svg') 
+}
+.mySaved{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('./images/mySaved.svg') 
+}
+.mySettings{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('./images/mySettings.svg') 
+}
+.dashboard-link{
+    font-family: 'Rubik', sans-serif;
+font-size: 14px;
+line-height: 17px;
+color: #626262;
+display: flex;
+align-items: center;
+}
+.dashboard-link i{
+    margin-right: 12px
+}
+.active-dashboard-link{
+    background: #f3f3f3;
+}
+.dashboard-greeting{
+    padding: 19px 24px 32px
+}
+.dashboard-background{
+    background: #f3f3f3
+}
+.border-top-right{
+    border-top-right-radius: 5px;
+}
+.border-top-left{
+    border-top-left-radius: 5px;
+}
+.border-bottom-right{
+    border-bottom-right-radius: 5px;
+}
+.border-bottom-left{
+    border-bottom-left-radius: 5px;
+}
+.dashboard-label{
+    font-family: 'Rubik', sans-serif;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+color: #BDBDBD;
+}
+.dashboard-value{
+    font-family: 'Rubik', sans-serif;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+color: #00A77F;
+}
+.dashboard-item{
+    background: #fff;
+    width: 153px;
+    height: 121px;
+    padding: 37px 25px;
+}
+.dashboard-content{
+    width: 70%;
+}
+.seller-dashboard{
+    display: flex;
+}
+.seller-dashboard .dashboard-item{
+    border-right: 1px solid #e0e0e0;
+}
+.dashboard-text{
+    font-family: 'Rubik', sans-serif;
+font-size: 18px;
+line-height: 21px;
+color: #2C3357;
+}
+
