@@ -1,0 +1,16 @@
+@media screen and (max-width: 991px){
+    .deal-box{
+        flex-direction: column;
+    }
+    .deal-box{
+        width: 328px;
+    }
+    .deal-section{
+        width: 100%;
+        border-bottom: 1px solid #e0e0e0;
+        border-right: none;
+    }
+    .deal-img{
+        margin-right: 14px;
+    }
+}
