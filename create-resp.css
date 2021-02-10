@@ -1,0 +1,28 @@
+@media screen and (max-width: 575px){
+    .steps-container{
+        display: flex;
+    }
+    .steps-container .steps{
+        width: 33%;
+    }
+    .step-body{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+    .step-field-container{
+        flex-direction: column;
+    }
+    .step-input-box {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+    .step-li label{
+        height: 43px;
+    }
+    .step-header .step-title-small{
+        display: none;
+    }
+}

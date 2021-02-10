@@ -1,9 +1,10 @@
-.active-step .step-header{
+.active-step .step-header {
     background: #fff;
     padding: 17px 20px;
     border-bottom: 1px solid #E0E0E0;
 }
-.step-header{
+
+.step-header {
     cursor: pointer;
     background: #E0E0E0;
     border: #e0e0e0;
@@ -15,26 +16,36 @@
     line-height: 28px;
     color: #626262;
 }
-.active-step .step-title-small{
+
+.active-step .step-title-small {
     display: block;
 }
-.step-title-small{
+
+.step-title-small {
     display: none;
 }
-.active-step .step-title{
+
+.active-step .step-title {
     line-height: 28px;
     color: #01426A;
     font-family: Rubik;
     font-weight: 500;
     font-size: 24px;
 }
-.step-body{
+
+
+
+
+
+.steps .step-body {
     display: none;
 }
-.active-step .step-body{
+
+.steps.active-step .step-body {
     display: block;
 }
-.active-step .step-title-small{
+
+.active-step .step-title-small {
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -42,25 +53,30 @@
     line-height: 17px;
     color: #01426A;
 }
-.grey{
+
+.grey {
     background: #E5E5E5;
 }
-.step-field-container{
+
+.step-field-container {
     padding: 35px 20px;
     border-bottom: 1px solid #e0e0e0;
     display: flex;
-    
+
 }
-.step-input-box{
+
+.step-input-box {
     width: 32%;
     display: flex;
     flex-direction: column;
     margin-right: 24px;
 }
-.step-input-box:last-child{
+
+.step-input-box:last-child {
     margin-right: 0px !important
 }
-.step-label{
+
+.step-label {
     margin-bottom: 8px;
     font-family: Rubik;
     font-style: normal;
@@ -69,16 +85,19 @@
     line-height: 17px;
     color: #626262;
 }
-.step-input{
+
+.step-input {
     border: 1px solid #BDBDBD;
     box-sizing: border-box;
     border-radius: 5px;
     padding: 10px;
 }
-.step-body{
+
+.step-body {
     background: #fff;
 }
-.step-input::placeholder{
+
+.step-input::placeholder {
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -87,7 +106,8 @@
     color: #BDBDBD;
     padding-top: 4px;
 }
-.step-btn{
+
+.step-btn {
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -100,10 +120,12 @@
     border-radius: 5px;
     padding: 15px 50px;
 }
-.step-btn:focus{
+
+.step-btn:focus {
     outline: none
 }
-.steps{
+
+.steps {
     border: 1px solid #F2F2F2;
     box-sizing: border-box;
     box-shadow: 0px 4px 24px rgba(214, 214, 214, 0.3);
@@ -111,48 +133,168 @@
     overflow: hidden;
     margin-bottom: 8px;
 }
-.error-border{
+
+.error-border {
     border: 1px solid red;
 }
-.step-input:focus{
+
+.step-input:focus {
     outline: none
 }
+
 /* category radio btns */
 .step-ul {
-    padding:0;
-    margin:0;
-    font-family:arial;
-  }
-  
-  .step-li {
-    list-style:none;
-    display:inline-block;
-    font-size:12px;
-  }
-  
-  .step-span {
-    color:#009ACE;
-    cursor:pointer;
-    transition:all .2s ease;
-    padding: 15px;
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
 
+.step-li {
+    list-style: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.step-span {
+    cursor: pointer;
+    transition: all .2s ease;
+    padding: 15px;
     font-family: Rubik;
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 14px;
     line-height: 17px;
     color: #01426A;
     border-radius: 3px;
     border: 1px solid #01426A;
-  }
-  
-  .step-style-input {
-    display:none;  
-  }
-  
-  .step-style-input:checked + .step-span {
+}
+
+.step-input{
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* Body text */
+
+    color: #626262;
+}
+
+.step-style-input {
+    display: none;
+}
+
+.step-category .step-label {
+    margin-bottom: 18px;
+}
+
+.step-style-input:checked + .step-span {
     background: #3CB95D;
     border-radius: 3px;
     border: 1px solid #3CB95D;
     color: #fff
-  }
+}
+
+.step-half-box {
+    width: 49%;
+}
+
+.span-ul{
+    padding: 0;
+}
+
+.imagePreview {
+    width: 108px;
+    height: 108px;
+    background-position: center center;
+    background: url(http://cliquecities.com/assets/no-image-e3699ae23f866f6cbdf8ba2443ee5c4e.jpg);
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.btn-primary {
+    display: block;
+    border-radius: 0px;
+    box-shadow: 0px 4px 6px 2px rgba(0, 0, 0, 0.2);
+    margin-top: -5px;
+}
+
+.del {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+.imgAdd {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #4bd7ef;
+    color: #fff;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    line-height: 30px;
+    margin-top: 0px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.upload-btn {
+    border: 1px solid #3CB95D;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #3CB95D;
+    height: max-content;
+    padding: 12px 50px;
+}
+.w90{
+    width: 90%;
+}
+.w40{
+    width: 40%;
+}
+.preview{
+    width: 21px;
+    height: 14px;
+    background: url("./images/preview.svg");
+    display: inline-block;
+}
+.empty-step-btn{
+    background: none;
+    border: none;
+    color: #3CB95D;
+}
+.empty-step-btn:focus{
+    outline: none;
+}
+.verified-step .step-header {
+    background: #01426A;
+}
+/*.verified-step .step-body {*/
+/*    display: none;*/
+/*}*/
+.verified-step .step-header h2{
+    color: #fff;
+}
+.hidden{
+    display: none;
+}
